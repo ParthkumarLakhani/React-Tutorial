@@ -32,6 +32,17 @@ it is lightweight beacuse it will remove react-script, testing library.
 
 
 
+
+
+"since i know the App is function then why these syntax came <App /> ??
+  Har react ek bundler use karatahe(like babel, vite bhi, ) what bundler do ??
+    Behind the scene working karana. like syntax ko upgrade karana, aur change karana ., 
+    
+    see the custom-react, behind the scene that syntax also converted by bundler bcz we write in html but react don't understood it, that's why we call it as JSX - javascript ke andar html mix he.
+      Actually me customReact (reactElement)- aesa syntax hona chahiye tha, jab aesa syntax he tabhi to tree banapayenge  so, hamare html(cfunction or component ) ki hoti he parsing isko convert kiya jata he tree me reqactElement jese syntax ke andar.
+"
+
+
 here I know that app is function then if i write App() can i t works ?? but why we are not write like this ??
   Yes, App() works, but it’s the wrong way to render a React component. And React has very important reasons for not wanting you to do that.
 
@@ -144,6 +155,8 @@ here I know that app is function then if i write App() can i t works ?? but why 
 
 
 
+
+  ""
 
 
 
